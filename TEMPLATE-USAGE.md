@@ -37,3 +37,11 @@ These are the files in question:
 - https://github.com/JeffersonLab/smoothness-template/blob/main/src/main/webapp/resources/img/logo32x32.png
 
 I've often just used Microsoft Paint to draw a 32x32 pixel png image for the logo and then a free online favicion generator can be used to create an `.ico` file from that.  Here is an example: https://www.xiconeditor.com/
+
+### 6. Customize README
+Update the Overview and description in the README to explain what your app does.
+
+Take a screenshot of your app and replace the file Screenshot.png that is referenced in the README.  The inherited screenshot is of the template app!  The file in question:
+
+- https://github.com/JeffersonLab/smoothness-template/blob/main/Screenshot.png
+
