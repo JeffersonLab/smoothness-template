@@ -7,7 +7,7 @@
     <li${'/overview' eq currentPath ? ' class="current-primary"' : ''}>
         <a href="${pageContext.request.contextPath}/overview">Overview</a>
     </li>
-    <c:if test="${pageContext.request.isUserInRole('demo-admin')}">
+    <c:if test="${pageContext.request.isUserInRole('template-admin')}">
         <li${fn:startsWith(currentPath, '/setup') ? ' class="current-primary"' : ''}>
             <a href="${pageContext.request.contextPath}/setup/settings">Setup</a>
         </li>
