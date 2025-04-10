@@ -24,5 +24,5 @@ The Action workflow by default will attempt to automatically deploy your app to 
 - DEPLOYER_USERNAME
 - DEPLOYER_TOKEN
 
-Reach out to me obtain these.  There is no self-service at the moment.  We use Red Hat Keycloak for security and the auto-deploy action authentiates with Keycloak (which doesn't currently provide self-service of Personal Access Tokens), so an admin must do this.  We'll need to perform some setup on the acctest.acc.jlab.org server as well at this time. 
+Reach out to me obtain these.  There is no self-service at the moment.  We use Red Hat Keycloak for security and the auto-deploy action authenticates with Keycloak (which doesn't currently provide self-service of Personal Access Tokens), so an admin must do this.  We'll need to perform some setup on the acctest.acc.jlab.org server as well at this time. 
 
