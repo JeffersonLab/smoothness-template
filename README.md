@@ -1,4 +1,4 @@
-# smoothness-template [![CI](https://github.com/JeffersonLab/smoothness-template/actions/workflows/ci.yaml/badge.svg)](https://github.com/JeffersonLab/smoothness-template/actions/workflows/ci.yaml) [![Docker](https://img.shields.io/docker/v/jeffersonlab/cnm?sort=semver&label=DockerHub)](https://hub.docker.com/r/jeffersonlab/smoothness-template)
+# smoothness-template [![CI](https://github.com/JeffersonLab/smoothness-template/actions/workflows/ci.yaml/badge.svg)](https://github.com/JeffersonLab/smoothness-template/actions/workflows/ci.yaml) [![Docker](https://img.shields.io/docker/v/jeffersonlab/smoothness-template?sort=semver&label=DockerHub)](https://hub.docker.com/r/jeffersonlab/smoothness-template)
 A [Java EE 8](https://en.wikipedia.org/wiki/Jakarta_EE) web application repo template, relying on the [Smoothness](https://github.com/JeffersonLab/smoothness) web lib.
 
 ![Screenshot](https://github.com/JeffersonLab/smoothness-template/raw/main/Screenshot.png?raw=true "Screenshot")
