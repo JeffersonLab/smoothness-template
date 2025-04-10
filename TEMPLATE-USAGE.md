@@ -1,7 +1,5 @@
 # Template Usage
 
-## Overview
-
 ## Steps
 
 ### 1. Create new Repo with Template
