@@ -1,5 +1,5 @@
 # smoothness-template [![CI](https://github.com/JeffersonLab/smoothness-template/actions/workflows/ci.yaml/badge.svg)](https://github.com/JeffersonLab/smoothness-template/actions/workflows/ci.yaml) [![Docker](https://img.shields.io/docker/v/jeffersonlab/cnm?sort=semver&label=DockerHub)](https://hub.docker.com/r/jeffersonlab/smoothness-template)
-A [Java EE 8](https://en.wikipedia.org/wiki/Jakarta_EE) web application template, relying on the [Smoothness](https://github.com/JeffersonLab/smoothness) web lib.
+A [Java EE 8](https://en.wikipedia.org/wiki/Jakarta_EE) web application repo template, relying on the [Smoothness](https://github.com/JeffersonLab/smoothness) web lib.
 
 ![Screenshot](https://github.com/JeffersonLab/smoothness-template/raw/main/Screenshot.png?raw=true "Screenshot")
 
@@ -16,7 +16,7 @@ A [Java EE 8](https://en.wikipedia.org/wiki/Jakarta_EE) web application template
 ---
 
 ## Overview
-A Template for web apps at JLab.  This repo is intended to be used at new repository creation time to bootstrap new web app projects.  Once a new repo is created from this one, a bunch of search and replace is used to rename everything needed for the new app.
+A Repo Template for web apps at JLab.  This repo is intended to be used at new repository creation time to bootstrap new web app projects.  Once a new repo is created from this one, a bunch of search and replace is used to rename everything needed for the new app.  When viewing this repo in GitHub, click the "Use this template" button to create a new repo.  Then search for `template` and replace with your app name.
 
 ## Quick Start with Compose
 1. Grab project
