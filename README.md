@@ -16,7 +16,7 @@ A [Java EE 8](https://en.wikipedia.org/wiki/Jakarta_EE) web application repo tem
 ---
 
 ## Overview
-A Repo Template for web apps at JLab.  This repo is intended to be used at new repository creation time to bootstrap new web app projects.  Once a new repo is created from this one, a bunch of search and replace is used to rename everything needed for the new app.  When viewing this repo in GitHub, click the "Use this template" button to create a new repo.  Then search for `template` and replace with your app name.
+A Repo Template for web apps at JLab.  This repo is intended to be used at new repository creation time to bootstrap new web app projects.  Once a new repo is created from this one, a bunch of search and replace is used to rename everything needed for the new app.  When viewing this repo in GitHub, click the "Use this template" button to create a new repo.  Then search the code for `template` and replace with your app name.
 
 ## Quick Start with Compose
 1. Grab project
