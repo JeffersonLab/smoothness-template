@@ -6,7 +6,7 @@
 When viewing the `smoothness-template` repo in GitHub, click the "Use this template" button to create a new repo
 
 ### 2. Search and Replace app name
-Search the code of your new repo for `template` and replace with your app name.
+Search the code of your new repo for `smoothness-template` and `template` and replace with your app name.
 
 ### 3. Configure GitHub Repo Secrets
 
