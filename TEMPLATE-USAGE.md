@@ -22,7 +22,7 @@ You must have a DockerHub account and be a member of the JeffersonLab DockerHub 
 The included GitHub Action workflow by default will attempt to automatically deploy your app to the Jefferson Lab `acctest.acc.jlab.org` test server on app release.  For this to work you need to add two Action Secrets via the Repo Settings on GitHub for your new repo.  The names are:
 
 - DEPLOYER_USERNAME
-- DEPLOYER_TOKEN
+- DEPLOYER_PASSWORD (token)
 
 Reach out to me obtain these.  There is no self-service at the moment.  We use Red Hat Keycloak for security and the auto-deploy action authenticates with Keycloak (which doesn't currently provide self-service of Personal Access Tokens), so an admin must do this.  We'll need to perform some setup on the acctest.acc.jlab.org server as well at this time. 
 
