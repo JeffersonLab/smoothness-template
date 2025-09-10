@@ -42,7 +42,7 @@ This application requires a Java 17+ JVM and standard library to run, plus a Jak
 
 
 1. Install service [dependencies](https://github.com/JeffersonLab/smoothness-template/blob/main/deps.yaml)
-2. Download [Wildfly 27.0.1](https://www.wildfly.org/downloads/)
+2. Download [Wildfly 37.0.1](https://www.wildfly.org/downloads/)
 3. [Configure](https://github.com/JeffersonLab/smoothness-template#configure) Wildfly and start it
 4. Download [template.war](https://github.com/JeffersonLab/smoothness-template/releases) and deploy it to Wildfly
 5. Navigate your web browser to [localhost:8080/template](http://localhost:8080/template)
