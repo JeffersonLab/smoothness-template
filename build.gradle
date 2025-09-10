@@ -6,20 +6,16 @@ description = 'Smoothness Template demo app'
 group = 'org.jlab'
 version =  new File("${projectDir}/VERSION").text.trim()
 ext.version = project.version
-ext.smoothnessVersion = '4.13.0'
+ext.smoothnessVersion = '5.0.0'
 ext.releaseDate = new Date().format('MMM dd yyyy')
 
-tasks.withType(JavaCompile) {
+tasks.withType(JavaCompile).configureEach {
     options.release = 17
     options.encoding = 'UTF-8'
     options.compilerArgs += ["-Xlint:deprecation", "-Xlint:unchecked"]
 }
 repositories {
     mavenCentral()
-
-    maven {
-        url = "https://s01.oss.sonatype.org/content/repositories/releases/"
-    }
 }
 dependencies {
     // No matter what smoothness weblib MUST be included in WAR (https://github.com/JeffersonLab/smoothness/issues/4)
