@@ -3,25 +3,29 @@ services:
     extends:
       file: deps.yaml
       service: oracle
+    container_name: template-oracle
 
   keycloak:
     extends:
       file: deps.yaml
       service: keycloak
+    container_name: template-keycloak
 
   puppet:
     extends:
       file: deps.yaml
       service: puppet
+    container_name: template-puppet
 
   mailhog:
     extends:
       file: deps.yaml
       service: mailhog
+    container_name: template-mailhog
 
   template:
     hostname: template
-    container_name: template
+    container_name: template-dev
     ports:
       - "8443:8443"
       - "8080:8080"

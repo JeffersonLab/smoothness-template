@@ -1,0 +1,30 @@
+name: template-devcontainers
+services:
+  oracle:
+    extends:
+      file: ../compose.yaml
+      service: oracle
+    container_name: template-oracle-devc
+
+  keycloak:
+    extends:
+      file: ../compose.yaml
+      service: keycloak
+    container_name: template-keycloak-devc
+
+  mailhog:
+    extends:
+      file: ../compose.yaml
+      service: mailhog
+    container_name: template-mailhog-devc
+
+  puppet:
+    extends:
+      file: ../compose.yaml
+      service: puppet
+    container_name: template-puppet-devc
+
+  dev:
+    image: jeffersonlab/smoothness-template:latest
+    hostname: dev
+    container_name: template-dev-devc
